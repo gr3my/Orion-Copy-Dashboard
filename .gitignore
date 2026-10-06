@@ -1,0 +1,34 @@
+# env
+.env
+.env.*
+!.env.example
+
+# next
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# deps
+node_modules/
+
+# runtime log output dir (root only)
+/logs/
+*.log
+*.tmp
+*.bak
+
+# local operator key registry (hashed records, machine-local)
+.data/
+
+# archives
+*.zip
+*.rar
+*.7z
+
+# editors
+.vscode/
+.idea/
+.DS_Store
